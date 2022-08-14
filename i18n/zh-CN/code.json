@@ -72,7 +72,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "或者可能是个 Bug，可以在 Bilibili@知非前端工程师、QQ 群里私信告知我~!",
+    "message": "或者可能是个 Bug，可以通过主页联系方式告知我~!",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -260,7 +260,7 @@
     "description": "Bilibili docs link label"
   },
   "homepage.hero.text": {
-    "message": "点击查看最新{bilibiliText}{courses}{blogs}{links}以及UP主的{ideas}。分享我的前端学习生活。",
+    "message": "点击查看最新{bilibiliText}{blogs}{links}以及UP主的{ideas}。分享我的前端学习生活。",
     "description": "hero text"
   },
   "hompage.hero.text.course": {

@@ -162,7 +162,7 @@ function BlogListPage(props) {
 
                       return (
                         <React.Fragment key={blogMetaData.permalink}>
-                          {(index + 1) % 4 === 3 && (
+                          {/* {(index + 1) % 4 === 3 && (
                             <div className="post__list-style-ad">
                               <Adsense
                                 layoutKey="-em-35+j4-rj-3c"
@@ -170,7 +170,7 @@ function BlogListPage(props) {
                                 slot="9557780226"
                               />
                             </div>
-                          )}
+                          )} */}
                           <div
                             className="post__list-item"
                             key={blogMetaData.permalink}

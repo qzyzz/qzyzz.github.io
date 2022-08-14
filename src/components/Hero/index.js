@@ -10,6 +10,7 @@ import Button from "../Button";
 import HeroMain from "./img/hero_main.svg";
 import BilibiliIcon from "@site/static/icons/bilibili.svg";
 import CSDNIcon from "@site/static/icons/csdn.svg";
+import JueJin from "@site/static/icons/juejin.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -174,13 +175,16 @@ function SocialLinks({ animatedProps, ...props }) {
       <a href="javascript:;">
         <CSDNIcon />
       </a>
+      <a href="javascript:;">
+        <JueJin />
+      </a>
       <div className={`dropdown ${styles.dropdown} dropdown--hoverable`}>
         <FontAwesomeIcon icon={faWeixin} size="lg" />
-        <img
+        {/* <img
           width="50%"
           className={`dropdown__menu ${styles.dropdown__menu}`}
           src={useBaseUrl("/img/publicQR.webp")}
-        />
+        /> */}
       </div>
     </animated.div>
   );

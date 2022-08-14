@@ -8,13 +8,13 @@ module.exports = {
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
-  url: "https://zxuqian.cn",
+  url: "qzy.gaosimohu.com",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
-  organizationName: "zxuqian", // Usually your GitHub org/user name.
+  favicon: "img/logo.png",
+  organizationName: "qzy", // Usually your GitHub org/user name.
   projectName: "zxuqian.cn", // Usually your repo name.
   themeConfig: {
-    image: "img/fenghua.jpg",
+    image: "img/logo.png",
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
       content: `更新<a href='/docs/videos/browser/js-web-animations-api'>《与 CSS Keyframes 媲美的原生 JS 高性能动画 API 教程》配套文本</a>`,
@@ -26,8 +26,8 @@ module.exports = {
       title: "知非",
       logo: {
         alt: "知非",
-        src: "img/logo.webp",
-        srcDark: "img/logo.webp",
+        src: "img/logo.png",
+        srcDark: "img/logo.png",
       },
       items: [
         // {

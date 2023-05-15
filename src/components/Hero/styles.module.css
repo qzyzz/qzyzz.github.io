@@ -57,7 +57,7 @@ html[data-theme="dark"] .bloghome__intro > p {
 }
 
 .bloghome__image svg {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 

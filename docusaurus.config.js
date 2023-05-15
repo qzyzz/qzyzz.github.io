@@ -4,24 +4,24 @@ const katex = require("rehype-katex");
 const adsense = require("./src/plugin/remark-adsense");
 
 module.exports = {
-  title: "知非前端工程师",
-  // tagline:
-  //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
+  title: "知非",
+  tagline: "记录前端学习",
   titleDelimiter: "-",
   url: "qzy.gaosimohu.com",
   baseUrl: "/",
   favicon: "img/logo.png",
   organizationName: "qzy", // Usually your GitHub org/user name.
-  projectName: "zxuqian.cn", // Usually your repo name.
+  projectName: "qzy's blog", // Usually your repo name.
   themeConfig: {
     image: "img/logo.png",
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
       content: `更新<a href='/docs/videos/browser/js-web-animations-api'>《与 CSS Keyframes 媲美的原生 JS 高性能动画 API 教程》配套文本</a>`,
-      backgroundColor: "#fafbfc", // Defaults to `#fff`.
+      backgroundColor: 'repeating-linear-gradient(35deg,var(--site-announcement-bar-stripe-color1),var(--site-announcement-bar-stripe-color1) 20px,var(--site-announcement-bar-stripe-color2) 10px,var(--site-announcement-bar-stripe-color2) 40px)', // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
     hideableSidebar: true,
+    // 头部
     navbar: {
       title: "知非",
       logo: {
@@ -67,28 +67,16 @@ module.exports = {
             },
           ],
         },
-
-        // {
-        //   label: "课程",
-        //   position: "right",
-        //   items: [
-        //     {
-        //       label: "React 即时通信 UI 开发实战",
-        //       to: "docs/course/react-chat-ui",
-        //     },
-        //   ],
-        // },
-
         {
           label: "小工具",
           position: "right",
           to: "docs/tools/",
         },
-        // {
-        //   href: "https://github.com/zxuqian/zxuqian.cn",
-        //   label: "本站源码",
-        //   position: "right",
-        // }
+        {
+          href: "https://github.com/qzyzz/Blog",
+          label: "源码",
+          position: "right",
+        }
       ],
     },
     algolia: {
@@ -162,7 +150,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/zxuqian/zxuqian.cn/tree/master",
+          editUrl: "https://github.com/qzyzz/Blog/tree/master",
           remarkPlugins: [math, adsense],
           rehypePlugins: [katex],
           showLastUpdateTime: true,
@@ -175,7 +163,7 @@ module.exports = {
           rehypePlugins: [katex],
           feedOptions: {
             type: "all",
-            title: "知非前端工程师",
+            title: "知非",
             copyright: `Copyright © ${new Date().getFullYear()} qzy Built with Docusaurus.`,
           },
         },
@@ -206,7 +194,7 @@ module.exports = {
         path: "./lifestyle",
         feedOptions: {
           type: "all",
-          title: "知非前端工程师",
+          title: "知非",
           copyright: `Copyright © ${new Date().getFullYear()} qzy Built with Docusaurus.`,
         },
       },

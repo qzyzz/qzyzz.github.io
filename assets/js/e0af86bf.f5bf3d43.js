@@ -1,0 +1,1 @@
+(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[6754],{1927:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/tags","slug":"type-script","name":"typescript","count":1,"permalink":"/tags/type-script"}')}}]);

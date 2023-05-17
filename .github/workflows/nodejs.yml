@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PWD }}
           local-dir: ./build/
-          server-dir: ./www/front/blog/
+          server-dir: ./
 
       # - name: SSH Deploy
       #   uses: easingthemes/ssh-deploy@v2.2.11

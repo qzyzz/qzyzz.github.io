@@ -24,14 +24,26 @@ jobs:
       - run: yarn install
       - run: yarn build
 
-      - name: FTP Deploy
+      name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PWD }}
-          local-dir: ./build/
-          server-dir: ./
+          # Github 会在 workflow 中自动生成 GIHUBT_TOKEN，用于认证 workflow 的运行
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          # 静态资源目录设置
+          publish_dir: ./build
+          # 默认发布到 gh-pages 分支上，可以指定特定的发布分支（不能选拉取代码的分支）
+          publish_branch: gh-pages
+          full_commit_message: ${{ github.event.head_commit.message }
+
+      # - name: FTP Deploy
+      #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      #   with:
+      #     server: ${{ secrets.SERVER_IP }}
+      #     username: ${{ secrets.FTP_USER }}
+      #     password: ${{ secrets.FTP_PWD }}
+      #     local-dir: ./build/
+      #     server-dir: ./
+
 
       # - name: SSH Deploy
       #   uses: easingthemes/ssh-deploy@v2.2.11

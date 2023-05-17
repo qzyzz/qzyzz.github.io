@@ -24,13 +24,13 @@ jobs:
       - run: yarn install
       - run: yarn build
 
-      # - name: FTP Deploy
-      #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      #   with:
-      #     server: byu7172490001.my3w.com
-      #     username: ${{ secrets.ftp_user }}
-      #     password: ${{ secrets.ftp_pwd }}
-      #     local-dir: ./build/
-      #     server-dir: ./htdocs/
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PWD }}
+          local-dir: ./build/
+          server-dir: ./
         env:
           CI: true

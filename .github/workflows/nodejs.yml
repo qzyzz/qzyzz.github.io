@@ -32,5 +32,3 @@ jobs:
           password: ${{ secrets.FTP_PWD }}
           local-dir: ./build/
           server-dir: ./
-        env:
-          CI: true

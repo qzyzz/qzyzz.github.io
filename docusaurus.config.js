@@ -7,11 +7,12 @@ module.exports = {
   title: "知非",
   tagline: "记录前端学习",
   titleDelimiter: "-",
-  url: "http://124.220.54.142/",
+  url: "https://qzyzz.github.io/Blog",
   baseUrl: "/",
   favicon: "img/logo.png",
-  organizationName: "qzy", // Usually your GitHub org/user name.
-  projectName: "qzy's blog", // Usually your repo name.
+  organizationName: "qzyzz", // Usually your GitHub org/user name.
+  projectName: "BLOG", // Usually your repo name.
+  deploymentBranch:'gh-pages',
   themeConfig: {
     image: "img/logo.png",
     announcementBar: {

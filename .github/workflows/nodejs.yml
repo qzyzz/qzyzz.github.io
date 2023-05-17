@@ -35,14 +35,14 @@ jobs:
           publish_branch: gh-pages
           full_commit_message: ${{ github.event.head_commit.message }
 
-      # - name: FTP Deploy
-      #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      #   with:
-      #     server: ${{ secrets.SERVER_IP }}
-      #     username: ${{ secrets.FTP_USER }}
-      #     password: ${{ secrets.FTP_PWD }}
-      #     local-dir: ./build/
-      #     server-dir: ./
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PWD }}
+          local-dir: ./build/
+          server-dir: ./
 
 
       # - name: SSH Deploy

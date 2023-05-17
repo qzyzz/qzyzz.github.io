@@ -7,6 +7,7 @@ module.exports = {
   title: "知非",
   tagline: "记录前端学习",
   titleDelimiter: "-",
+  url: "http://124.220.54.142/",
   baseUrl: "/",
   favicon: "img/logo.png",
   organizationName: "qzy", // Usually your GitHub org/user name.

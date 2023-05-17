@@ -7,8 +7,8 @@ module.exports = {
   title: "知非",
   tagline: "记录前端学习",
   titleDelimiter: "-",
-  url: "https://qzyzz.github.io/BLOG/",
-  baseUrl: "/",
+  url: "https://qzyzz.github.io",
+  baseUrl: "/BLOG/",
   favicon: "img/logo.png",
   organizationName: "qzyzz", // Usually your GitHub org/user name.
   projectName: "BLOG", // Usually your repo name.

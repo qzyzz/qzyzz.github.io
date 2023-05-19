@@ -260,8 +260,12 @@
     "description": "Bilibili docs link label"
   },
   "homepage.hero.text": {
-    "message": "点击查看最新{bilibiliText}{blogs}{links}以及UP主的{ideas}。分享我的前端学习生活。",
+    "message": "点击查看最新{bilibiliText}{blogs}{links}以及{ideas}。分享我的前端学习生活。",
     "description": "hero text"
+  },
+  "homepage.hero.poem": {
+    "message": "山重水复疑无路，柳暗花明又一村",
+    "description": "hero poem"
   },
   "hompage.hero.text.course": {
     "message": "实战课程、",

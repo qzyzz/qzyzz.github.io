@@ -50,14 +50,14 @@ html[data-theme="dark"] .bloghome__intro > p {
 
 .bloghome__image {
   overflow: hidden;
-  width: 85%;
+  width: 100%;
   z-index: 5;
   align-items: center;
   justify-items: center;
 }
 
 .bloghome__image svg {
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 

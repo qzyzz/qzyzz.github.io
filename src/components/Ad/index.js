@@ -1,7 +1,7 @@
 import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
-
+/**广告组件 */
 function Ad({ src, link, alt, text, ...rest }) {
   return (
     <div {...rest}>

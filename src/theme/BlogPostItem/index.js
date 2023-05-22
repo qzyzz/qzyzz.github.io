@@ -168,7 +168,7 @@ function BlogPostItem(props) {
       </Head>
 
       {/* 统计 */}
-      {isBlogPostPage && <Count postId={postId} />}
+      {/* {isBlogPostPage && <Count postId={postId} />} */}
       <div
         className={`row 
          ${!isBlogPostPage ? "blog-list--item" : ""}`}
@@ -268,9 +268,9 @@ function BlogPostItem(props) {
                 </strong>
               </Link>
             )}
-            {isBlogPostPage && (
+            {/* {isBlogPostPage && (
               <Comments activityId={activityId} oid={oid} bvid={bvid} />
-            )}
+            )} */}
           </footer>
         </div>
       </div>

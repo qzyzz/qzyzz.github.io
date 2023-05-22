@@ -17,8 +17,6 @@ module.exports = {
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
       content: `更新<a href='/docs/videos/browser/js-web-animations-api'>《与 CSS Keyframes 媲美的原生 JS 高性能动画 API 教程》配套文本</a>`,
-      backgroundColor: 'repeating-linear-gradient(35deg,var(--site-announcement-bar-stripe-color1),var(--site-announcement-bar-stripe-color1) 20px,var(--site-announcement-bar-stripe-color2) 10px,var(--site-announcement-bar-stripe-color2) 40px)', // Defaults to `#fff`.
-      textColor: "#091E42", // Defaults to `#000`.
     },
     hideableSidebar: true,
     // 头部
@@ -39,6 +37,10 @@ module.exports = {
           to: "/",
           position: "right",
           items: [
+            {
+              label: "标签",
+              to: "tags",
+            },
             {
               label: "随笔",
               to: "lifestyle",

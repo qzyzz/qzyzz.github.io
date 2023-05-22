@@ -168,7 +168,7 @@ function BlogPostItem(props) {
       </Head>
 
       {/* 统计 */}
-      {/* {isBlogPostPage && <Count postId={postId} />} */}
+      {isBlogPostPage && <Count postId={postId} />}
       <div
         className={`row 
          ${!isBlogPostPage ? "blog-list--item" : ""}`}

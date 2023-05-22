@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qzyzz.github.io/</id>
     <title>知非</title>
-    <updated>2023-05-22T08:57:29.243Z</updated>
+    <updated>2023-05-22T09:20:15.224Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qzyzz.github.io/"/>
     <subtitle>知非 Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[第一篇博客]]></title>
         <id>first-blog</id>
         <link href="https://qzyzz.github.io/first-blog"/>
-        <updated>2023-05-22T08:57:29.243Z</updated>
+        <updated>2023-05-22T09:20:15.224Z</updated>
         <summary type="html"><![CDATA[第一篇博客]]></summary>
     </entry>
     <entry>

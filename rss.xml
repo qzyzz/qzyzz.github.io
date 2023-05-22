@@ -4,10 +4,17 @@
         <title>知非</title>
         <link>https://qzyzz.github.io/</link>
         <description>知非 Blog</description>
-        <lastBuildDate>Sun, 27 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 May 2023 08:57:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2023 qzy Built with Docusaurus.</copyright>
+        <item>
+            <title><![CDATA[第一篇博客]]></title>
+            <link>https://qzyzz.github.io/first-blog</link>
+            <guid>first-blog</guid>
+            <pubDate>Mon, 22 May 2023 08:57:29 GMT</pubDate>
+            <description><![CDATA[第一篇博客]]></description>
+        </item>
         <item>
             <title><![CDATA[如何快速学会一门编程语言]]></title>
             <link>https://qzyzz.github.io/how-to-learn-a-programming-language-quickly</link>
@@ -210,13 +217,6 @@
             <guid>front-end-learning-path</guid>
             <pubDate>Wed, 26 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[这段日子在 B 站上收到小伙伴最多的要求就是出一个前端学习路线，我能够充分的感受到大家抓耳挠腮加挠墙的迷茫~所以在这里给大家总结了一套前端学习路线。先从初级前端工程师所需的技能开始，然后一路升级到高级工程师该掌握的技能，层层相扣，让大家在工作中能游刃有余。最后附上我自己是如何从一个后端工程师转成了前端工程师^^。希望我的经历能对大家有帮助。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[第 N 个第一篇博客]]></title>
-            <link>https://qzyzz.github.io/first-blog</link>
-            <guid>first-blog</guid>
-            <pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[每次博客一搬家，旧的就不想折腾了，然后就重新从第一篇开始写....]]></description>
         </item>
     </channel>
 </rss>

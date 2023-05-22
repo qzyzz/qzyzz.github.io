@@ -131,6 +131,7 @@ function BlogPostItem(props) {
                 icon={faTags}
                 color="#c4d3e0"
                 className="margin-right--md"
+                style={{fontSize: '1.25rem'}}
               />
               {tags
                 .slice(0, 4)

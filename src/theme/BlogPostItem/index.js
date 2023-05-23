@@ -169,7 +169,7 @@ function BlogPostItem(props) {
       </Head>
 
       {/* 统计 */}
-      {isBlogPostPage && <Count postId={postId} />}
+      {/* {isBlogPostPage && <Count postId={postId} />} */}
       <div
         className={`row 
          ${!isBlogPostPage ? "blog-list--item" : ""}`}
@@ -252,16 +252,18 @@ function BlogPostItem(props) {
             )}
           </article>
           <footer className="article__footer padding-top--md margin-top--lg margin-bottom--lg">
-            {!isBlogPostPage && (
-              <span className="footer__read_count">
-                <Eye
-                  // color={isDarkTheme ? "#76baff" : "#006dfe"}
-                  className="footer__eye"
-                  style={{ verticalAlign: "middle" }}
-                />{" "}
-                {views}
-              </span>
-            )}
+            {!isBlogPostPage && (<div></div>)
+            // (
+            //   <span className="footer__read_count">
+            //     <Eye
+            //       // color={isDarkTheme ? "#76baff" : "#006dfe"}
+            //       className="footer__eye"
+            //       style={{ verticalAlign: "middle" }}
+            //     />{" "}
+            //     {views}
+            //   </span>
+            // )
+            }
             {truncated && (
               <Link to={metadata.permalink} aria-label={`阅读 ${title} 的全文`}>
                 <strong className={styles.readMore}>

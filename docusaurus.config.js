@@ -16,7 +16,7 @@ module.exports = {
     image: "img/logo.png",
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `更新<a href='/docs/videos/browser/js-web-animations-api'>《与 CSS Keyframes 媲美的原生 JS 高性能动画 API 教程》配套文本</a>`,
+      content: `<a href='/vue3-basics'>Vue3基础入门教程(含setup语法糖)</a>`,
     },
     hideableSidebar: true,
     // 头部
@@ -34,7 +34,6 @@ module.exports = {
         // },
         {
           label: "首页",
-          to: "/",
           position: "right",
           items: [
             {
@@ -82,9 +81,9 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: "fabfb0e9997e101154ed85d64b7b6a3c",
-      indexName: "ZXUQIANCN",
-      appId: "LIJMO3C9C4",
+      apiKey: "02a954b73bfdb26a4621312ab2e18fe4",
+      indexName: "qzyzzio",
+      appId: "PIC6T7CXE0",
     },
     footer: {
       style: "light",
@@ -237,13 +236,12 @@ module.exports = {
   ],
   i18n: {
     defaultLocale: "zh-CN",
-    locales: ["zh-CN"],
     // locales: ["zh-CN", "en"],
     // localeConfigs: {
     //   "zh-CN": {
     //     label: "中文",
     //   },
-    //   en: {
+    //   "en": {
     //     label: "English",
     //   },
     // },

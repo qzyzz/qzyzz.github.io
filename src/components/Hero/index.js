@@ -132,21 +132,18 @@ function SocialLinks({ animatedProps, ...props }) {
   // const { isDarkTheme } = useThemeContext();
   return (
     <animated.div className={styles.social__links} style={animatedProps}>
-      <a href="/#">
+      <a href="https://space.bilibili.com/62491371">
         <BilibiliIcon />
       </a>
-      <a href="/#">
+      <a href="https://github.com/qzyzz">
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </a>
-      <a href="/#">
+      <a href="https://blog.csdn.net/qq_43623118">
         <CSDNIcon />
       </a>
-      <a href="/#">
+      <a href="https://juejin.cn/user/3826721340290071">
         <JueJin />
       </a>
-      <div className={`dropdown ${styles.dropdown} dropdown--hoverable`}>
-        <FontAwesomeIcon icon={faWeixin} size="lg" />
-      </div>
     </animated.div>
   )
 }

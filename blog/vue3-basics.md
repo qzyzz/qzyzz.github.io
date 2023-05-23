@@ -8,7 +8,9 @@ author_image_url: 'https://avatars.githubusercontent.com/u/80742834?s=400&u=7001
 description: 请输入描述
 tags: [vue3,教程]
 ---
+简单的vue3入门教学
 
+## `<!-- truncate -->`
 
 ## 一. Vue3与Vue2的区别
 
@@ -764,7 +766,7 @@ watchEffect(()=>{
 	watch([sum,msg],(newValue,oldValue)=>{
 	        console.log('sum或msg变了',newValue,oldValue)
 	      },{immediate:true})
-	    
+	  
 	 watch(()=>person.job,(newValue,oldValue)=>{
 	    console.log('person的job变化了',newValue,oldValue)
 	 },{deep:true}) 
@@ -1009,5 +1011,3 @@ const onClickSetUp = ({ key }) => {
 **这个时候我们需要把视图(View)、数据(Model)、逻辑控制(*)分离。这就是MV*模式的雏形。**
 
 **MV*类框架的总的思想就是数据视图分离各司其职，管理起来也就得心应手，哪里需要更改就改哪里。**
-
-`<!-- truncate -->`

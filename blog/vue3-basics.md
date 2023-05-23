@@ -8,9 +8,17 @@ author_image_url: 'https://avatars.githubusercontent.com/u/80742834?s=400&u=7001
 description: 请输入描述
 tags: [vue3,教程]
 ---
-简单的vue3入门教学
+:::info Vue3变化
 
-## `<!-- truncate -->`
+1. 性能提升，运行速度是vue2.x的1.5倍左右
+2. 体积更小，按需编译体积比vue2.x要更小
+3. 类型推断，更好的支持Ts（typescript）这个也是趋势
+4. 高级给予，暴露了更底层的API和提供更先进的内置组件
+5. **★组合API (composition api)** ，能够更好的组织逻辑，封装逻辑，复用逻辑
+
+:::
+
+`<!-- truncate -->`
 
 ## 一. Vue3与Vue2的区别
 

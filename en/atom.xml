@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://qzyzz.github.io/en/</id>
+    <title>知非</title>
+    <updated>2023-05-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://qzyzz.github.io/en/"/>
+    <subtitle>知非 Blog</subtitle>
+    <icon>https://qzyzz.github.io/en/img/logo.png</icon>
+    <rights>Copyright © 2023 qzy Built with Docusaurus.</rights>
+    <entry>
+        <title type="html"><![CDATA[vue3基础]]></title>
+        <id>vue3-basics</id>
+        <link href="https://qzyzz.github.io/en/vue3-basics"/>
+        <updated>2023-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[请输入描述]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一篇博客]]></title>
+        <id>first-blog</id>
+        <link href="https://qzyzz.github.io/en/first-blog"/>
+        <updated>2023-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[第一篇博客]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何快速学会一门编程语言]]></title>
+        <id>how-to-learn-a-programming-language-quickly</id>
+        <link href="https://qzyzz.github.io/en/how-to-learn-a-programming-language-quickly"/>
+        <updated>2021-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[面对越来越激烈的内卷，程序员需要掌握的技能越来越多，并且对于快速掌握一门编程语言的能力也日趋重要，因为现在的开发基本都是多端、各种语言都会使用，能快速的转换，才能在编程界里立足。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS :is() 伪类选择器使用指南]]></title>
+        <id>css-is-pseudo-class-selector</id>
+        <link href="https://qzyzz.github.io/en/css-is-pseudo-class-selector"/>
+        <updated>2021-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[css :is() 伪类选择器还是一个正在逐步规范化的新特性，所以在使用上也需要注意一下变动，总之，它可以让我们减少编写重复选择器的次数，实现像 SASS/Less 等 CSS 预处理编译器类似的嵌套语法。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[面试没通过，又一次，我好菜呀...]]></title>
+        <id>interview-failed-recover</id>
+        <link href="https://qzyzz.github.io/en/interview-failed-recover"/>
+        <updated>2021-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[是不是每次面试没通过都会有这样的感觉？作为一名程序员，每次面试的时候都觉得准备不充分，面试资料多的看不完，实战经验也不够，即使自认为准备的很充分了，最后还是栽了，到底是因为自己菜，还是自己菜，还是自己菜呢？要回答这个问题，我们得先知道面试到底在面什么。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web性能优化：使用图片懒加载推迟屏幕外图片的加载]]></title>
+        <id>web-performance-optimization-image-lazy-loading</id>
+        <link href="https://qzyzz.github.io/en/web-performance-optimization-image-lazy-loading"/>
+        <updated>2021-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在使用 chrome 的 lighthouse 对网站进行测速之后，发现有一条优化提示：推迟屏幕外的图片加载。之前有看到过要实现这样的效果需要使用 lazy loading，图片懒加载，但是需要使用 js 的方式来实现，由于本人十分懒惰，不想用太复杂的代码，于是在网上搜索了一番，发现 `<img>`  标签原生支持懒加载。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实现前端网页 WebRTC 视频通话以及换脸特效]]></title>
+        <id>webrtc-avatarify-face-swap-tutorial</id>
+        <link href="https://qzyzz.github.io/en/webrtc-avatarify-face-swap-tutorial"/>
+        <updated>2021-03-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[因为疫情的原因，线上视频会议软件异军突起，成为了在家办公的主要沟通渠道。而最近抖音上“蚂蚁呀嘿”恶搞换脸的小视频也突然火了起来，那我就想了想能不能在视频会议的时候换张脸活跃下气氛？]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web 性能优化：使用 CSS font-display 控制字体加载和替换]]></title>
+        <id>css-font-display-intro</id>
+        <link href="https://qzyzz.github.io/en/css-font-display-intro"/>
+        <updated>2021-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在编写网站的时候，或多或少都会用到一些网络上的字体，CSS 3 中虽然加入了对 Web Fonts（网络字体）的支持，但是浏览器对它们的加载和默认处理方式会极大的影响网站的性能和用户体验。例如默认情况下，在 Web Fonts 加载时，使用该字体的地方会显示空白，直到字体下载完成之后才会显示，这时通过改变 CSS 中的 `font-display` 属性，就可以避免这个问题。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript 游戏开发 - 物理碰撞引擎实现]]></title>
+        <id>javascript-collision-physics</id>
+        <link href="https://qzyzz.github.io/en/javascript-collision-physics"/>
+        <updated>2021-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从原生角度上如何实现游戏里的物理特性，例如运动、碰撞。不用框架编写一个简单的、基于 JavaScript Canvas 的物理引擎，实现小球的碰撞效果。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[来自未来世界的机能服：科技带来便利（实测）]]></title>
+        <id>uppervoid-jacket</id>
+        <link href="https://qzyzz.github.io/en/uppervoid-jacket"/>
+        <updated>2021-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[品牌 UPPERVOID，创始人为 Vis，毕业于沃顿商学院，坚持理性逻辑和艺术审美应当结合起来，这一点与本 UP 主的理念保持一致。在体验过诸如喜马拉雅、北极圈之类的极端环境之后，Vis 认为应该将防护作为生存之根本，加上对科技从业者的敬佩，于是就有了 UPPERVOID，专门为互联网从业人士打造的生活方式品牌。通过把最新的科技融入到生活中，把未来机械世界的场景提前带入到了日常生活中来，让我们体验到技术究竟会引领大家到何方。这款机能服是 UPPERVOID 的第一个产品，从面料、功能和设计上来看已经完全可以看到未来高科技生活的影子了。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从 0 仿微信 8.0 动态表情实现过程]]></title>
+        <id>wechat-stickers-effect</id>
+        <link href="https://qzyzz.github.io/en/wechat-stickers-effect"/>
+        <updated>2021-01-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[微信 8.0 更新的一大特色就是支持动画表情，如果发送的消息只有一个内置的表情图标，这个表情会有一段简单的动画，一些特殊的表情还有全屏特效，例如烟花表情有全屏放烟花的特效，炸弹表情有爆炸动画并且消息和头像也会随之震动。本着作为前端工程师的职业精神，我就想看看能不能实现一个类似的特效。折腾许久之后，做出来的效果如下：]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[回顾2020，程序员转型的起步]]></title>
+        <id>review-2020</id>
+        <link href="https://qzyzz.github.io/en/review-2020"/>
+        <updated>2021-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[对未来的焦虑应该是每个程序员都能体会到的吧，面对招聘的年龄门槛、工作与生活的平衡、不良的生活习惯，以后的路要怎么走充满了不确定性。但是又因为程序员是技术工种，自己所掌握的技能可以从接外包、作产品、写博客、录视频等多方面进行输出，看似又不缺出路，只是怀疑能不能做好，所以一边担心自己能不能转型或改行，一边又极其期望逃离没有出头之日的 996 ，这是一个难题。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[整理了5个JavaScript怪异行为及其原因]]></title>
+        <id>5-javascript-tricky-problems</id>
+        <link href="https://qzyzz.github.io/en/5-javascript-tricky-problems"/>
+        <updated>2020-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JavaScript 早期的规范不统一，也没有严格的标准，再加上它的语法灵活多样，有些看起来就不正确的代码却能正常执行，一些看起来符合逻辑的代码，运行结果却相差十万八千里。这些问题在日常开发中经常会导致 BUG，更重要的是，很多面试官会把它们拿出来当考验咱们 JS 工程师的能力。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1024：程序员，你的身体还好吗？]]></title>
+        <id>1024-developer-health</id>
+        <link href="https://qzyzz.github.io/en/1024-developer-health"/>
+        <updated>2020-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从几何时，程序员成了加班、996 的代名词，从以前业务做不完偶尔加班变成了现在的常态，不得不说一句俗话：这是时代的进步还是倒退？]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[鸿蒙 OS：使用 JavaScript 开发 Todo App UI 界面]]></title>
+        <id>harmonyos-js-todo</id>
+        <link href="https://qzyzz.github.io/en/harmonyos-js-todo"/>
+        <updated>2020-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用鸿蒙 JS 框架开发 Todo 应用的 TV 版 UI 界面。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[职业规划：程序员的 T 字形发展攻略]]></title>
+        <id>programmer-t-type-career</id>
+        <link href="https://qzyzz.github.io/en/programmer-t-type-career"/>
+        <updated>2020-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你是不是在面对市面上众多的技术的时候，不知道选择哪个才能对自己的职业和未来发展有所帮助？有这样的想法是正常的，因为随着科学的发展，现在的编程技术已经到了百花齐放的地步了。那么这么多的技术和领域，我们到底应该选哪一个才比较好呢？]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端工程师到底要学到什么程序才能去找工作？成功面试的必备要素与回答技巧]]></title>
+        <id>frontend-looking-for-jobs</id>
+        <link href="https://qzyzz.github.io/en/frontend-looking-for-jobs"/>
+        <updated>2020-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[好多人都想知道，前端工程师到底要需要掌握什么技能、到什么程度，才能去找工作？最简单的答案：]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[噢！原来这就是 TypeScript]]></title>
+        <id>typescript-intro</id>
+        <link href="https://qzyzz.github.io/en/typescript-intro"/>
+        <updated>2020-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript 是 JavaScript 的，带有类型的超集，并且可以编译为 JavaScript 脚本，这篇幅文章将带你认识一下 TypeScript]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[给前端工程师看的后端科普]]></title>
+        <id>backend-intro</id>
+        <link href="https://qzyzz.github.io/en/backend-intro"/>
+        <updated>2020-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前端工程师了解后端的功能和作用之后，能更好的和后端工程师进行沟通，减少沟通成本，另外也有助于向全栈工程师方向发展。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前后端通信之 HTTP 协议简介]]></title>
+        <id>http-protocol</id>
+        <link href="https://qzyzz.github.io/en/http-protocol"/>
+        <updated>2020-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HTTP 协议包括客户端和服务端两个实体，客户端发送请求给服务端，服务端返回响应给客户端。在 HTTP 中，数据称为资源，可以是 html 文档、图片、也可以是普通文本。资源是通过 URL 进行定位的。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5个技巧助你成为 CSS 大神]]></title>
+        <id>5-tips-to-master-css</id>
+        <link href="https://qzyzz.github.io/en/5-tips-to-master-css"/>
+        <updated>2020-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[都说 CSS 很难掌握，最愁给页面编写样式，其实都是因为还没有形成一个对 CSS 宏观的了解，只要有了正确的学习方法、设计思维，再通过不断的积累，就能轻松的掌握它。接下来我会把掌握 CSS 的 5 个技巧整理一下，让你在以后编写 CSS 的时候不再发愁。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Flexbox 布局最容易理解完全教程]]></title>
+        <id>css-flex-box-layout</id>
+        <link href="https://qzyzz.github.io/en/css-flex-box-layout"/>
+        <updated>2020-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS flexbox 布局十分强大，它可以对元素进行水平和垂直方向上的对齐，也支持自由缩放，方便响应式布局的开发。这个文章就教你认识 flex-box 布局，看完之后你也能熟练的运用它！]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS 选择器优先级特异性权重详解]]></title>
+        <id>css-selector-specificity</id>
+        <link href="https://qzyzz.github.io/en/css-selector-specificity"/>
+        <updated>2020-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在写 CSS 的时候你一定遇到过有些样式明明写对了，也选择了正确的 html 元素去应用这些样式，可是就是不生效，这是为什么呢？因为在选择同一个 HTML 元素的时候，不同的选择器有不同的优先级，优先级低的选择器的样式会被优先级高的覆盖。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React State 和 Event教程 - 制作渐变背景生成器]]></title>
+        <id>learn-react-event-and-state</id>
+        <link href="https://qzyzz.github.io/en/learn-react-event-and-state"/>
+        <updated>2020-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello! 今天来带你走进 React 的大门！我第一次听说 React 是我在美国读研的时候，室友选了 web programming 这节课，然后遇到了关于 react 的好多问题...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Props 教程 - 制作一个按钮]]></title>
+        <id>learn-react-props-buttons</id>
+        <link href="https://qzyzz.github.io/en/learn-react-props-buttons"/>
+        <updated>2020-03-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rect Props 是编写可复用组件的核心，可以利用 Prop 让组件接收不同的参数，然后根据这些参数作出不同的表现，如形状、颜色等。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么是 React？你为什么应该学React？]]></title>
+        <id>React-intro</id>
+        <link href="https://qzyzz.github.io/en/React-intro"/>
+        <updated>2020-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello! 今天来带你走进 React 的大门！我第一次听说 React 是我在美国读研的时候，室友选了 web programming 这节课，然后遇到了关于 react 的好多问题...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 Docusaurus 搭建个人博客教程（二）]]></title>
+        <id>deploy-a-docusaurus-site-part2</id>
+        <link href="https://qzyzz.github.io/en/deploy-a-docusaurus-site-part2"/>
+        <updated>2020-03-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如果你看了上期视频的话，那么你应该学会了怎么在本地搭建一个 docusaurus 博客，但是你不能只在本地来看这个博客吧，得让全世界来欣赏你的杰作，所以说咱们得把这个博客部署到服务器上。部署有两种方式：]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 Docusaurus 搭建个人博客教程（一）]]></title>
+        <id>deploy-a-docusaurus-site</id>
+        <link href="https://qzyzz.github.io/en/deploy-a-docusaurus-site"/>
+        <updated>2020-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我以前总也找不到一个满意的博客系统，wordpress 这个程序又大，然后配置也不方便。占用的服务器的资源也多。我就想有没有一个又简单又快速的博客平台，后来发现了一些静态的网站生成器，像 hexo 这种，但是发现上面的主题又不好看，又懒得自己去写。后来就有一阵子我就直接把博客就发布在了其他的第三方的博客平台上。现在发现了这个 docusaurus, 它的主题跟我之前看到的一个大佬 Dan Abramov，它的 overreacted.io 博客，风格是一模一样的，因为他是 react 的作者之一，估计这个他们这个样式都是互相借鉴，它这个主题可以切换暗黑和白天模式，比较好看。安装和部署也特别简单，我的博客也是用它这个搭建的。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序员如何提升英语水平]]></title>
+        <id>learning-english-for-coders</id>
+        <link href="https://qzyzz.github.io/en/learning-english-for-coders"/>
+        <updated>2020-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本篇文章适合所有想提升英语尤其是阅读能力的人，因为我自己程序员，所以我来拿自己的亲身经历来帮助大家发现自己提高英语技能的方法。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11个前端工程师必备的网站]]></title>
+        <id>frontend-devs-must-know-websites</id>
+        <link href="https://qzyzz.github.io/en/frontend-devs-must-know-websites"/>
+        <updated>2020-02-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[好多小伙伴有疑问，就是说有哪些值得去关注的前端网站，我知道大家可能都苦于找不到一些有价值的,还有值得信赖的网站去学一些比较货真价实的前端技术。生怕有哪些水文或者是一些乱七八糟的网站，把咱们的这个知识给误导了。这里呢我准备了几个我经常关注的一些网站，一部分是国外的，然后有一部分是国内的，因为国内的好多的都是质量参差不齐，但国外的话普遍的质量比较高（事实如此）。不过呢，咱们国内的也有一些比较好的平台，我在这里给咱们一共准备了 11 个可以关注的网站。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020年最新前端工程师学习路线]]></title>
+        <id>front-end-learning-path</id>
+        <link href="https://qzyzz.github.io/en/front-end-learning-path"/>
+        <updated>2020-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这段日子在 B 站上收到小伙伴最多的要求就是出一个前端学习路线，我能够充分的感受到大家抓耳挠腮加挠墙的迷茫~所以在这里给大家总结了一套前端学习路线。先从初级前端工程师所需的技能开始，然后一路升级到高级工程师该掌握的技能，层层相扣，让大家在工作中能游刃有余。最后附上我自己是如何从一个后端工程师转成了前端工程师^^。希望我的经历能对大家有帮助。]]></summary>
+    </entry>
+</feed>

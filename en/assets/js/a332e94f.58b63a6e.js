@@ -1,0 +1,1 @@
+(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[6763],{6229:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/en/tags","slug":"vue-3","name":"vue3","count":1,"permalink":"/en/tags/vue-3"}')}}]);

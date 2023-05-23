@@ -1,0 +1,1 @@
+(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[1445],{9018:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/en/tags","slug":"avatarify","name":"avatarify","count":1,"permalink":"/en/tags/avatarify"}')}}]);

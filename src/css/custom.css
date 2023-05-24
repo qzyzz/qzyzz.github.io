@@ -74,6 +74,24 @@ html {
   color: hsl(214deg 37% 25%);
 }
 
+/* 滚动条宽度 */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+/* 滚动条轨道 */
+body::-webkit-scrollbar-track {
+  background: rgb(239, 239, 239);
+  border-radius: 2px;
+}
+/* 小滑块 */
+body::-webkit-scrollbar-thumb {
+  background: #54c7ec;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
 html h1,
 html h2,
 html h3,
@@ -487,35 +505,23 @@ pagination-nav__item:hover .pagination-nav__link {
 }
 
 .blog-wrapper > .container > .row:not([class~="blog-tags__page"]) {
-  display: grid;
-  grid-template-areas:
-    "detail recent"
-    "detail outline";
-  grid-template-rows: auto 1fr;
-  grid-template-columns: minmax(0, 1fr) 250px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--ifm-spacing-horizontal)*-1);
 }
 
-.blog-wrapper > .container > .row .col[class*="col--"] {
-  max-width: unset;
+.col[class*=col--] {
+  flex: 0 0 var(--ifm-col-width);
 }
 
+.row .col.col--3 {
+  --ifm-col-width: calc(2 / 12 * 100%);
+}
+
+.row .col.col--2 {
+  --ifm-col-width: calc(3 / 12 * 100%);
+}
 /* 近期文章 */
-.blog-wrapper > .container > .row > *:nth-child(1) {
-  grid-area: recent;
-  align-self: start;
-  /* height: 200px; */
-}
-.blog-wrapper > .container > .row > *:nth-child(1) > div {
-  position: static;
-}
-
-.blog-wrapper > .container > .row > *:nth-child(2) {
-  grid-area: detail;
-}
-.blog-wrapper > .container > .row > *:nth-child(3) {
-  grid-area: outline;
-}
-
 .blog-wrapper > .container > .row > *:nth-child(3) > div > div::before {
   content: "文章目录";
   display: block;

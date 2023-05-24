@@ -1,6 +1,7 @@
 ---
 id: css-tutorial-intro
 title: CSS 完全指南简介
+date: 2023-05-20
 description: CSS 完全指南教程用于学习 CSS 的语法、常见的布局实现（例如 Grid、Flex 布局）、以及进阶的样式实现（例如响应式布局、动画、3D变换和绘图相关)
 keywords:
   - css
@@ -9,7 +10,6 @@ keywords:
   - frontend
 # image: https://i.imgur.com/mErPwqL.png
 ---
-
 CSS 完全指南教程用于学习 CSS 的语法、常见的布局实现（例如 Grid、Flex 布局）、以及进阶的样式实现（例如响应式布局、动画、3D变换和绘图相关)。
 
 :::caution 注意

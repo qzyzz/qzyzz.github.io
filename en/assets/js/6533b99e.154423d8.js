@@ -1,1 +1,0 @@
-(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[1522],{9704:function(n){"use strict";n.exports=JSON.parse('{"allTagsPath":"/en/tags","slug":"\u804c\u4e1a","name":"\u804c\u4e1a","count":8,"permalink":"/en/tags/\u804c\u4e1a"}')}}]);

@@ -1,1 +1,0 @@
-(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[9971],{8554:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/en/lifestyle","page":1,"postsPerPage":10,"totalPages":1,"totalCount":8,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

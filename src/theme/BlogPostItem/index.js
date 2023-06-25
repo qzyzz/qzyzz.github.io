@@ -248,7 +248,7 @@ function BlogPostItem(props) {
               </div>
             )} */}
             {isBlogPostPage && (
-              <Adsense responsive="true" format="auto" slot="4590671808" />
+              // <Adsense responsive="true" format="auto" slot="4590671808" />
             )}
           </article>
           <footer className="article__footer padding-top--md margin-top--lg margin-bottom--lg">

@@ -44,10 +44,10 @@ module.exports = {
               label: "随笔",
               to: "lifestyle",
             },
-            {
-              label: "职业",
-              to: "tags/职业",
-            },
+            // {
+            //   label: "职业",
+            //   to: "tags/职业",
+            // },
           ],
         },
         {

@@ -33,92 +33,57 @@
             <title><![CDATA[Web性能优化：使用图片懒加载推迟屏幕外图片的加载]]></title>
             <link>https://qzyzz.github.io/en/web-performance-optimization-image-lazy-loading</link>
             <guid>web-performance-optimization-image-lazy-loading</guid>
-            <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[在使用 chrome 的 lighthouse 对网站进行测速之后，发现有一条优化提示：推迟屏幕外的图片加载。之前有看到过要实现这样的效果需要使用 lazy loading，图片懒加载，但是需要使用 js 的方式来实现，由于本人十分懒惰，不想用太复杂的代码，于是在网上搜索了一番，发现 `<img>`  标签原生支持懒加载。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[实现前端网页 WebRTC 视频通话以及换脸特效]]></title>
-            <link>https://qzyzz.github.io/en/webrtc-avatarify-face-swap-tutorial</link>
-            <guid>webrtc-avatarify-face-swap-tutorial</guid>
-            <pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[因为疫情的原因，线上视频会议软件异军突起，成为了在家办公的主要沟通渠道。而最近抖音上“蚂蚁呀嘿”恶搞换脸的小视频也突然火了起来，那我就想了想能不能在视频会议的时候换张脸活跃下气氛？]]></description>
         </item>
         <item>
             <title><![CDATA[Web 性能优化：使用 CSS font-display 控制字体加载和替换]]></title>
             <link>https://qzyzz.github.io/en/css-font-display-intro</link>
             <guid>css-font-display-intro</guid>
-            <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[在编写网站的时候，或多或少都会用到一些网络上的字体，CSS 3 中虽然加入了对 Web Fonts（网络字体）的支持，但是浏览器对它们的加载和默认处理方式会极大的影响网站的性能和用户体验。例如默认情况下，在 Web Fonts 加载时，使用该字体的地方会显示空白，直到字体下载完成之后才会显示，这时通过改变 CSS 中的 `font-display` 属性，就可以避免这个问题。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[JavaScript 游戏开发 - 物理碰撞引擎实现]]></title>
-            <link>https://qzyzz.github.io/en/javascript-collision-physics</link>
-            <guid>javascript-collision-physics</guid>
-            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[从原生角度上如何实现游戏里的物理特性，例如运动、碰撞。不用框架编写一个简单的、基于 JavaScript Canvas 的物理引擎，实现小球的碰撞效果。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[从 0 仿微信 8.0 动态表情实现过程]]></title>
-            <link>https://qzyzz.github.io/en/wechat-stickers-effect</link>
-            <guid>wechat-stickers-effect</guid>
-            <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[微信 8.0 更新的一大特色就是支持动画表情，如果发送的消息只有一个内置的表情图标，这个表情会有一段简单的动画，一些特殊的表情还有全屏特效，例如烟花表情有全屏放烟花的特效，炸弹表情有爆炸动画并且消息和头像也会随之震动。本着作为前端工程师的职业精神，我就想看看能不能实现一个类似的特效。折腾许久之后，做出来的效果如下：]]></description>
         </item>
         <item>
             <title><![CDATA[整理了5个JavaScript怪异行为及其原因]]></title>
             <link>https://qzyzz.github.io/en/5-javascript-tricky-problems</link>
             <guid>5-javascript-tricky-problems</guid>
-            <pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[JavaScript 早期的规范不统一，也没有严格的标准，再加上它的语法灵活多样，有些看起来就不正确的代码却能正常执行，一些看起来符合逻辑的代码，运行结果却相差十万八千里。这些问题在日常开发中经常会导致 BUG，更重要的是，很多面试官会把它们拿出来当考验咱们 JS 工程师的能力。]]></description>
         </item>
         <item>
             <title><![CDATA[噢！原来这就是 TypeScript]]></title>
             <link>https://qzyzz.github.io/en/typescript-intro</link>
             <guid>typescript-intro</guid>
-            <pubDate>Tue, 09 Jun 2020 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 09 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[TypeScript 是 JavaScript 的，带有类型的超集，并且可以编译为 JavaScript 脚本，这篇幅文章将带你认识一下 TypeScript]]></description>
         </item>
         <item>
             <title><![CDATA[前后端通信之 HTTP 协议简介]]></title>
             <link>https://qzyzz.github.io/en/http-protocol</link>
             <guid>http-protocol</guid>
-            <pubDate>Sun, 10 May 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[HTTP 协议包括客户端和服务端两个实体，客户端发送请求给服务端，服务端返回响应给客户端。在 HTTP 中，数据称为资源，可以是 html 文档、图片、也可以是普通文本。资源是通过 URL 进行定位的。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[5个技巧助你成为 CSS 大神]]></title>
-            <link>https://qzyzz.github.io/en/5-tips-to-master-css</link>
-            <guid>5-tips-to-master-css</guid>
-            <pubDate>Wed, 29 Apr 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[都说 CSS 很难掌握，最愁给页面编写样式，其实都是因为还没有形成一个对 CSS 宏观的了解，只要有了正确的学习方法、设计思维，再通过不断的积累，就能轻松的掌握它。接下来我会把掌握 CSS 的 5 个技巧整理一下，让你在以后编写 CSS 的时候不再发愁。]]></description>
         </item>
         <item>
             <title><![CDATA[CSS Flexbox 布局最容易理解完全教程]]></title>
             <link>https://qzyzz.github.io/en/css-flex-box-layout</link>
             <guid>css-flex-box-layout</guid>
-            <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 05 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[CSS flexbox 布局十分强大，它可以对元素进行水平和垂直方向上的对齐，也支持自由缩放，方便响应式布局的开发。这个文章就教你认识 flex-box 布局，看完之后你也能熟练的运用它！]]></description>
         </item>
         <item>
             <title><![CDATA[CSS 选择器优先级特异性权重详解]]></title>
             <link>https://qzyzz.github.io/en/css-selector-specificity</link>
             <guid>css-selector-specificity</guid>
-            <pubDate>Sat, 04 Apr 2020 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[在写 CSS 的时候你一定遇到过有些样式明明写对了，也选择了正确的 html 元素去应用这些样式，可是就是不生效，这是为什么呢？因为在选择同一个 HTML 元素的时候，不同的选择器有不同的优先级，优先级低的选择器的样式会被优先级高的覆盖。]]></description>
         </item>
         <item>
             <title><![CDATA[React Props 教程 - 制作一个按钮]]></title>
             <link>https://qzyzz.github.io/en/learn-react-props-buttons</link>
             <guid>learn-react-props-buttons</guid>
-            <pubDate>Sun, 15 Mar 2020 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Rect Props 是编写可复用组件的核心，可以利用 Prop 让组件接收不同的参数，然后根据这些参数作出不同的表现，如形状、颜色等。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[2020年最新前端工程师学习路线]]></title>
-            <link>https://qzyzz.github.io/en/front-end-learning-path</link>
-            <guid>front-end-learning-path</guid>
-            <pubDate>Wed, 26 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[这段日子在 B 站上收到小伙伴最多的要求就是出一个前端学习路线，我能够充分的感受到大家抓耳挠腮加挠墙的迷茫~所以在这里给大家总结了一套前端学习路线。先从初级前端工程师所需的技能开始，然后一路升级到高级工程师该掌握的技能，层层相扣，让大家在工作中能游刃有余。最后附上我自己是如何从一个后端工程师转成了前端工程师^^。希望我的经历能对大家有帮助。]]></description>
         </item>
     </channel>
 </rss>

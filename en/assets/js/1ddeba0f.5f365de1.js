@@ -1,1 +1,0 @@
-(self.webpackChunkzxuqian_cn=self.webpackChunkzxuqian_cn||[]).push([[8667],{8697:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/en/","page":1,"postsPerPage":10,"totalPages":2,"totalCount":16,"previousPage":null,"nextPage":"/en/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

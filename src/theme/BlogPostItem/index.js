@@ -246,12 +246,12 @@ function BlogPostItem(props) {
                   <Ad key={id} link={link} src={imageSrc} alt={alt} />
                 ))}
               </div>
-            )} */}
-            {isBlogPostPage && (
-              // <Adsense responsive="true" format="auto" slot="4590671808" />
             )}
+            {isBlogPostPage && (
+              <Adsense responsive="true" format="auto" slot="4590671808" />
+            )} */}
           </article>
-          <footer className="article__footer padding-top--md margin-top--lg margin-bottom--lg">
+          <footer className={`article__footer padding-top--md ${truncated?'margin-top--lg margin-bottom--lg':null}`}>
             {!isBlogPostPage && (<div></div>)
             // (
             //   <span className="footer__read_count">

@@ -20,7 +20,7 @@ function TOC({ ...rest }) {
         ))}
       </div> */}
       <section>
-        <Adsense format="auto" responsive="true" slot="2034513429" />
+        {/* <Adsense format="auto" responsive="true" slot="2034513429" /> */}
       </section>
     </div>
   );

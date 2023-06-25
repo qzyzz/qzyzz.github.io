@@ -228,7 +228,7 @@ function BlogPostItem(props) {
                 <div className="text--center margin-bottom--xs padding-bottom--xs">
                   {renderTags()}
                 </div>
-                <Adsense responsive="true" format="auto" slot="2800800187" />
+                {/* <Adsense responsive="true" format="auto" slot="2800800187" /> */}
               </>
             )}
 

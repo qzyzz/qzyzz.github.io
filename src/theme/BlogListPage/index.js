@@ -119,14 +119,14 @@ function BlogListPage(props) {
                     {items.map(({ content: BlogPostContent }, index) => (
                       // <Fade key={BlogPostContent.metadata.permalink}>
                       <React.Fragment key={BlogPostContent.metadata.permalink}>
-                        {index % 2 === 0 && (
+                        {/* {index % 2 === 0 && (
                           <Adsense
                             key={index}
                             layoutKey="-em-35+j4-rj-3c"
                             format="fluid"
                             slot="9557780226"
                           />
-                        )}
+                        )} */}
                         <BlogPostItem
                           key={BlogPostContent.metadata.permalink}
                           frontMatter={BlogPostContent.frontMatter}
@@ -145,7 +145,7 @@ function BlogListPage(props) {
                     ))}
                   </div>
                 )}
-                <Adsense responsive="true" auto="fluid" slot="6767147116" />
+                {/* <Adsense responsive="true" auto="fluid" slot="6767147116" /> */}
                 {isListView && (
                   <div className="bloghome__posts-list">
                     {items.map(({ content: BlogPostContent }, index) => {
@@ -220,7 +220,7 @@ function BlogListPage(props) {
           </div>
         </div>
       </div>
-      <Adsense responsive="true" format="auto" slot="9797738783" />
+      {/* <Adsense responsive="true" format="auto" slot="9797738783" /> */}
     </Layout>
   );
 }

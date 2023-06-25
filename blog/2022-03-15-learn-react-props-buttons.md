@@ -10,12 +10,11 @@ tags: [前端, React]
 bvid: av96612743
 oid: "96612743"
 ---
-
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <!-- [B 站视频 - 点击传送](https://www.bilibili.com/video/av93748753/) -->
 
-你在写 HTML 页面的时候肯定知道，html 标签的属性都是固定的，比如 `a` 标签的 `href`, `input` 里边的 `type` 属性。这些属性都是内置的，不方便扩展和复用。而用 React 创建组件的话，可以给它定义一些更符合语义和逻辑的属性，比如颜色、尺寸等。<!-- truncate -->这些属性在 React 里边叫做 props，你可以自己定义这些属性将会影响到组件的哪些部分。这样的一个组件，通过给它一个合适的名字，比如 Button，那么所有按钮的展现都可以用它来实现，只需要改变它的属性就可以展示为不同的样式。那今天我就教你定义一个这样的按钮组件，它有默认的背景色、文字颜色、还有实心和线框样式，后边通过属性，props，来控制它是蓝色、红色还是黑色，然后利用另一个属性来控制它是实心的背景还是线框的。好，那咱们开始吧。
+你在写 HTML 页面的时候肯定知道，html 标签的属性都是固定的，比如 `a` 标签的 `href`, `input` 里边的 `type` 属性。这些属性都是内置的，不方便扩展和复用。而用 React 创建组件的话，可以给它定义一些更符合语义和逻辑的属性，比如颜色、尺寸等。`<!-- truncate -->`这些属性在 React 里边叫做 props，你可以自己定义这些属性将会影响到组件的哪些部分。这样的一个组件，通过给它一个合适的名字，比如 Button，那么所有按钮的展现都可以用它来实现，只需要改变它的属性就可以展示为不同的样式。那今天我就教你定义一个这样的按钮组件，它有默认的背景色、文字颜色、还有实心和线框样式，后边通过属性，props，来控制它是蓝色、红色还是黑色，然后利用另一个属性来控制它是实心的背景还是线框的。好，那咱们开始吧。
 
 ## 你将学到的
 
@@ -36,8 +35,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
    ```bash
    npx create-react-app react-button-props
    ```
-
-2. 添加`classnames`依赖（稍后解释它的作用）
+2. 添加 `classnames`依赖（稍后解释它的作用）
 
    ```bash
    yarn add classnames
@@ -47,12 +45,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 1. 在 `src` 下边新建一个 `Button` 文件夹。组件应该有自己独立的文件夹，所有跟这个组件有关的文件，比如 css、hooks 等都放到一起，这样在查看一个组件源码时，相应的文件都会在一块，方便查找。另外也方便和其他人共享这个组件，它是一个独立的整体。
 2. 在 `Button` 文件夹创建 `index.js` 文件，里边放用来定义按钮组件的代码。
-3. 在 `Button` 文件夹下创建 `style.modules.css` 文件，在这里咱们先用普通的 css 来定义按钮的样式，后续的教程里我再给你介绍`styled-components`。它是一个 css-in-js 的解决方案
+3. 在 `Button` 文件夹下创建 `style.modules.css` 文件，在这里咱们先用普通的 css 来定义按钮的样式，后续的教程里我再给你介绍 `styled-components`。它是一个 css-in-js 的解决方案
 
    :::important CSS modules 的作用
-   这个带 modules 的 css 文件使用了 `css modules` 库，它是 create-react-app 工具里自带的，用来避免全局 class 名字冲突，在普通 css 下，如果不同的样式文件都同时使用了 `.button` 这样的 class 名，那么后面的就会把前面的覆盖。使用了`css modules`之后，它会自动生成随机的 class 名字。这样这个组件里边定义的 class 就不会被其他组件定义的同名的 class 给覆盖。当然你也可以不用它，有些全局的 css 可以直接定义在普通的 css 文件里。
+   这个带 modules 的 css 文件使用了 `css modules` 库，它是 create-react-app 工具里自带的，用来避免全局 class 名字冲突，在普通 css 下，如果不同的样式文件都同时使用了 `.button` 这样的 class 名，那么后面的就会把前面的覆盖。使用了 `css modules`之后，它会自动生成随机的 class 名字。这样这个组件里边定义的 class 就不会被其他组件定义的同名的 class 给覆盖。当然你也可以不用它，有些全局的 css 可以直接定义在普通的 css 文件里。
    :::
-
 4. 编写 `button` 组件的代码：
 
    ```jsx
@@ -84,7 +81,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
      return <Button>按钮</Button>;
    }
    ```
-
 5. 删除 App 的 return 中的所有的代码，导入 Button 组件，然后把它写在 return 里边：
 
    ```jsx
@@ -113,13 +109,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
    ```
 
    这里把按钮设置了背景、圆角边框、字体、指针样式和阴影。
-
 2. 打开 Button 组件的 index.js 文件，导入 css 文件并赋值给一个变量，这里叫 `styles`：
 
    ```jsx
    import styles from "./styles.module.css";
    ```
-
 3. 给 Button 组件加上 className 属性，这里可以用 `styles.button` 来访问 css 文件中的 `.button` 的样式：
 
    ```jsx
@@ -144,7 +138,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### classnames 组合样式
 
-在定义完这两个额外的样式之后，需要把它和`.button`定义的样式组合起来。这里可以手动去拼，也可以用之前刚开始安装的 classnames 依赖库。它可以根据条件来组合 className，只有满足一定条件的 class 才会被组合进来，在咱们这里，可以这样使用：
+在定义完这两个额外的样式之后，需要把它和 `.button`定义的样式组合起来。这里可以手动去拼，也可以用之前刚开始安装的 classnames 依赖库。它可以根据条件来组合 className，只有满足一定条件的 class 才会被组合进来，在咱们这里，可以这样使用：
 
 ```jsx
 <button
@@ -175,7 +169,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 线框样式
 
-如果再加一组线框样式的按钮呢？很简单，我再加一个`type`属性，默认是`primary`的，主要按钮，线框按钮的 type 叫它`secondary` 次要按钮，然后 classnames 添加一个新的 class，在 type 为 `secondary` 的时候追加到组合中：
+如果再加一组线框样式的按钮呢？很简单，我再加一个 `type`属性，默认是 `primary`的，主要按钮，线框按钮的 type 叫它 `secondary` 次要按钮，然后 classnames 添加一个新的 class，在 type 为 `secondary` 的时候追加到组合中：
 
 ```jsx
 function Button({ children, type = "primary", color = "blue" }) {
@@ -268,5 +262,3 @@ main {
 - 组件相关的文件都放到一个文件夹里
 - `css modules` - 用来生成随机局部 class 名字
 - `classnames` - 用来组合多个 class
-
-你学会了吗？如果有问题，欢迎通过下方链接参与讨论。

@@ -28,10 +28,6 @@ module.exports = {
         srcDark: "img/logo.png",
       },
       items: [
-        // {
-        //   type: "localeDropdown",
-        //   position: "left",
-        // },
         {
           label: "首页",
           position: "right",
@@ -40,14 +36,6 @@ module.exports = {
               label: "标签",
               to: "tags",
             },
-            {
-              label: "随笔",
-              to: "lifestyle",
-            },
-            // {
-            //   label: "职业",
-            //   to: "tags/职业",
-            // },
           ],
         },
         {

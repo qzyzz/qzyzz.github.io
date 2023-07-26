@@ -1,6 +1,6 @@
 ---
 slug: typescript-intro
-title: 噢！原来这就是 TypeScript
+title: 这就是 TypeScript
 author: 峰华
 author_title: 前端工程师 / B站UP主
 author_url: https://github.com/zxuqian
@@ -29,6 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 认识了 TypeScript 之后，可能你又有问题，为什么要学 TypeScript 呢？先看一条数据，在 stackoverflow 发起的 2020 年程序员调查中，TypeScript 在程序员最爱的编程语言中排在了第二位，仅次于 Rust：
 
 <img alt="" src={useBaseUrl('img/2020-06-09-typescript-intro/2020-06-09-22-03-40.png')} />
+
 
 [https://stackoverflow.blog/2020/05/27/2020-stack-overflow-developer-survey-results/](https://stackoverflow.blog/2020/05/27/2020-stack-overflow-developer-survey-results/)
 
@@ -359,5 +360,3 @@ let tup: [number, string, boolean] = [1, "fh", true];
 - 以及它的一些基本的并且常用的语法点
 
 这样你就能对 TypeScript 有大体的认识了，也能编写简单的 TypeScript 应用并且看懂一部分其他人的代码了。到这里你可能发现 TypeScript 带来的功能特性都是零散的，因为它本身就是给 JS 添砖加瓦，所以它的语法点逐一突破就好了。
-
-你学会了吗？如果有问题，欢迎通过下方链接参与讨论。

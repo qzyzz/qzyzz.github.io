@@ -673,8 +673,6 @@ export const NestedFlexBox = ({ minWidth }) => (
 - 通过`flex-wrap`可以设置 flex 子元素折行显示。
 - 嵌套`flex`容器的缩放问题。
 
-你学会了吗？如果有问题，欢迎通过下方链接参与讨论。
-
 export const StyledWrapper = styled.div`
   margin-bottom: 24px;
   background: #f1f2f6;

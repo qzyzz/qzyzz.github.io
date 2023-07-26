@@ -10,7 +10,6 @@ tags: [前端, React]
 bvid: av96612743
 oid: "96612743"
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <!-- [B 站视频 - 点击传送](https://www.bilibili.com/video/av93748753/) -->
 
@@ -20,8 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 上一张效果图：
 
-<img alt="" src={useBaseUrl('img/2020-03-15-learn-react-props-buttons/2020-03-15-19-02-33.png')} />
-
+![1690356235430](image/2022-03-15-learn-react-props-buttons/1690356235430.png)
 ## 创建 React 工程
 
 1. 使用 create-react-app 创建一个工程：

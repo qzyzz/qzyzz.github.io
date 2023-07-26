@@ -1,6 +1,6 @@
 ---
 slug: typescript-intro
-title: 这就是 TypeScript
+title: 噢！原来这就是 TypeScript
 author: 峰华
 author_title: 前端工程师 / B站UP主
 author_url: https://github.com/zxuqian
@@ -357,3 +357,7 @@ let tup: [number, string, boolean] = [1, "fh", true];
 - 为什么要学 TypeScript 和它有什么优点
 - 怎样编写和运行 TypeScript 代码
 - 以及它的一些基本的并且常用的语法点
+
+这样你就能对 TypeScript 有大体的认识了，也能编写简单的 TypeScript 应用并且看懂一部分其他人的代码了。到这里你可能发现 TypeScript 带来的功能特性都是零散的，因为它本身就是给 JS 添砖加瓦，所以它的语法点逐一突破就好了。
+
+你学会了吗？如果有问题，欢迎通过下方链接参与讨论。

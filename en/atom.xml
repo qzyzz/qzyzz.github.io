@@ -51,7 +51,7 @@
         <summary type="html"><![CDATA[JavaScript 早期的规范不统一，也没有严格的标准，再加上它的语法灵活多样，有些看起来就不正确的代码却能正常执行，一些看起来符合逻辑的代码，运行结果却相差十万八千里。这些问题在日常开发中经常会导致 BUG，更重要的是，很多面试官会把它们拿出来当考验咱们 JS 工程师的能力。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[噢！原来这就是 TypeScript]]></title>
+        <title type="html"><![CDATA[这就是 TypeScript]]></title>
         <id>typescript-intro</id>
         <link href="https://qzyzz.github.io/en/typescript-intro"/>
         <updated>2022-06-09T00:00:00.000Z</updated>

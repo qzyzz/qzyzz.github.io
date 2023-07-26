@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 上一张效果图：
 
-<img alt="" src={useBaseUrl('img/2020-03-15-learn-react-props-buttons/2020-03-15-19-02-33.png')} />
+![1690352869383](image/2022-03-15-learn-react-props-buttons/1690352869383.png)
 
 ## 创建 React 工程
 
